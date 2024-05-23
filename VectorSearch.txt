@@ -1,0 +1,8 @@
+Database: 'sample_mflix'
+Collection: 'movies'
+Index Name: 'PlotSemanticSearch'
+Type: 'vector'
+Path: 'plot_embedding_hf'
+Similarity: 'dotProduct'
+
+Use these details in their respective fields to configure the Vector Search
